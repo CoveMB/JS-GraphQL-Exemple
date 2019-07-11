@@ -2,7 +2,7 @@ FROM node:10
 
 RUN apt-get update
 RUN apt-get -y install curl gnupg
-RUN apt-get -y install postgresql-client nano
+RUN apt-get -y install nano
 RUN npm install -g nodemon
 
 # Create app directory
